@@ -1,3 +1,4 @@
+import os
 rocket = """
                                         /
  Rickys Rocket                        *///(
@@ -23,7 +24,6 @@ rocket = """
                                         /
 """
 import time
-import os
 print("count down")
 for seconds in [5, 4, 3, 2, 1]:
   print(seconds)
